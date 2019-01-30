@@ -1,5 +1,5 @@
-/* make all dialer buttons 20 by 20 pixels with white text and green background and a 10 pixel margin */
-.dialers { width: 30px; height: 30px; background: green; color: white; margin: 10px; }
+/* make all dialer buttons 40 by 40 pixels with white text and green background and a 10 pixel margin */
+.dialers { width: 40px; height: 40px; background: green; color: white; margin: 10px; }
 
 /* make all tags with the "contactName" class name have blue text */
 .contactName { color: blue; }
