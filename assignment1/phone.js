@@ -1,5 +1,5 @@
 $(document).ready(function() { // do this when the document is loaded
-	$("#tBar").show() // show tab bar
+	$("#tBar").show(); // show tab bar
 	$("#tabCon1").show(); // show dialer
 	$("#tabCon2").hide(); // hide contact list
 	$("#tabCon3").hide(); // hide add contact
