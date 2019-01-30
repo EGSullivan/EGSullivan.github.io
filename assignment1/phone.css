@@ -9,3 +9,6 @@
 
 /* make the background grey */
 p { background: grey; }
+
+/* make the headers have borders */
+h2 { border: 1px solid black; }
