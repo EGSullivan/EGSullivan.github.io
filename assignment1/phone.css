@@ -5,4 +5,7 @@
 .contactName { color: blue; }
 
 /* make the tab buttons  */
-.tab { background: black; color: white; }
+.tab { background: black; color: white; margin: 10px; }
+
+/* make the background grey */
+p { background: grey; }
