@@ -8,7 +8,7 @@
 .tab { background: black; color: white; margin: 10px; }
 
 /* make the background grey */
-p { background: grey; }
+p { background: grey; width: 180px; }
 
 /* make the headers have borders */
-h2 { border: 1px solid black; }
+h2 { border: 1px solid black; width: 180px; }
