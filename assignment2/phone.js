@@ -3,6 +3,7 @@ $(document).ready(function() { // do this when the document is loaded
 	$("#tabCon1").show(); // show dialer
 	$("#tabCon2").hide(); // hide contact list
 	$("#tabCon3").hide(); // hide add contact
+	$("#tabCon4").hide(); // hide help page
 });
 
 $("#tab1").click(function() { // when "tab1" is clicked
@@ -18,7 +19,7 @@ $("#tab2").click(function() { // when "tab2" is clicked
 	$("#tabCon1").hide(); // hide dialer
 	$("#tabCon2").show(); // show contact list
 	$("#tabCon3").hide(); // hide add contact
-	$("tabCon4").hide(); // hide help page
+	$("#tabCon4").hide(); // hide help page
 });
 
 $("#tab3").click(function() { // when "tab3" is clicked
