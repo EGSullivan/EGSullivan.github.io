@@ -29,10 +29,21 @@ $("#tab3").click(function() { // when "tab3" is clicked
 	$("#tabCon4").hide(); // hide help page
 });
 
-$("#tab4").click(function() { //when "tab4" is clicked
+$("#tab4").click(function() { // when "tab4" is clicked
 	$("tBar").show(); // show tab bar
 	$("#tabCon1").hide(); // hide dialer
 	$("tabCon2").hide(); // hide contact list
 	$("tabCon4").show(); // show help page
-	
+});
+
+$("#no1").click(function(){ // when 1 is clicked
+	$("#number").val("1"); // type 1
+});
+
+$("#no2").click(function(){ // when 2 is clicked
+	$("#number").val("2"); // type 2
+});
+
+$("#no3").click(function(){ // when 3 is clicked
+	$("#number").val("3"); // type 3
 });
