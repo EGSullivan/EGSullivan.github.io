@@ -37,13 +37,13 @@ $("#tab4").click(function() { // when "tab4" is clicked
 });
 
 $("#no1").click(function(){ // when 1 is clicked
-	$("#number").val("1"); // type 1
+	$("#number").val(val + "1"); // type 1
 });
 
 $("#no2").click(function(){ // when 2 is clicked
-	$("#number").val("2"); // type 2
+	$("#number").val(val + "2"); // type 2
 });
 
 $("#no3").click(function(){ // when 3 is clicked
-	$("#number").val("3"); // type 3
+	$("#number").val(val +"3"); // type 3
 });
