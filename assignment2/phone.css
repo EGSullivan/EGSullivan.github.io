@@ -1,0 +1,14 @@
+/* make all dialer buttons 40 by 40 pixels with white text and green background and a 10 pixel margin */
+.dialers { width: 40px; height: 40px; background: green; color: white; margin: 10px; }
+
+/* make all tags with the "contactName" class name have blue text */
+.contactName { color: blue; }
+
+/* make the tab buttons  */
+.tab { background: black; color: white; margin: 10px; }
+
+/* make the background grey */
+#tabCon1 { background: grey; width: 200px; }
+
+/* make the headers have borders */
+h2 { border: 1px solid black; width: 180px; }
