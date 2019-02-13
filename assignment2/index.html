@@ -1,60 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="phone.css">
 	</head>
 	<body>
-		<div class="tabBar" id="tBar">
-			<button class="tab" id="tab1" role="button" tabindex="0">
+		<div class="tabBar" id="tBar" role="navigation">
+			<button class="tab" id="tab1" role="button" tabindex="0" accesskey="a">
 			Dialer
 			</button>
-			<button class="tab" id="tab2" role="button" tabindex="0">
+			<button class="tab" id="tab2" role="button" tabindex="0" accesskey="s">
 			Contact List
 			</button>
-			<button class="tab" id="tab3" role="button" tabindex="0">
+			<button class="tab" id="tab3" role="button" tabindex="0" accesskey="d">
 			Add Contact
 			</button>
-			<button class="tab" id="tab4" role="button" tabindex="0">
+			<button class="tab" id="tab4" role="button" tabindex="0" accesskey="h">
 			Help
 			</button>
 		</div>
-		<div class="tabContent" id="tabCon1">
+		<div class="tabContent" id="tabCon1" role="main" aria-live="polite">
 			<h2><strong>Dialer</strong></h2>
 			<p><form>
 			  <input id="number">
 			</form></p>
-			<p><button class="dialers" id="no1" role="button" tabindex="0">
+			<p><button class="dialers" id="no1" role="button" tabindex="0" accesskey="1">
 			1
 			</button>
-			<button class="dialers" id="no2" role="button" tabindex="0">
+			<button class="dialers" id="no2" role="button" tabindex="0" accesskey="2">
 			2
 			</button>
-			<button class="dialers" id="no3" role="button" tabindex="0">
+			<button class="dialers" id="no3" role="button" tabindex="0" accesskey="3">
 			3
 			</button></p>
-			<p><button class="dialers" id="no4" role="button" tabindex="0">
+			<p><button class="dialers" id="no4" role="button" tabindex="0" accesskey="4">
 			4
 			</button>
-			<button class="dialers" id="no5" role="button" tabindex="0">
+			<button class="dialers" id="no5" role="button" tabindex="0" accesskey="5">
 			5
 			</button>
-			<button class="dialers" id="no6" role="button" tabindex="0">
+			<button class="dialers" id="no6" role="button" tabindex="0" accesskey="6">
 			6
 			</button></p>
-			<p><button class="dialers" id="no7" role="button" tabindex="0">
+			<p><button class="dialers" id="no7" role="button" tabindex="0" accesskey="7">
 			7
 			</button>
-			<button class="dialers" id="no8" role="button" tabindex="0">
+			<button class="dialers" id="no8" role="button" tabindex="0" accesskey="8">
 			8
 			</button>
-			<button class="dialers" id="no9" role="button" tabindex="0">
+			<button class="dialers" id="no9" role="button" tabindex="0" accesskey="9">
 			9
 			</button></p>
 			<p><button class="dialers" id="star" role="button" tabindex="0">
 			*
 			</button>
-			<button class="dialers" id="zero" role="button" tabindex="0">
+			<button class="dialers" id="zero" role="button" tabindex="0" accesskey="0">
 			0
 			</button>
 			<button class="dialers" id="hash" role="button" tabindex="0">
@@ -67,23 +67,30 @@
 			Clear
 			</button></p>
 		</div>
-		<div class="tabContent" id="tabCon2">
+		<div class="tabContent" id="tabCon2" role="main" aria-live="polite">
 			<h2><strong>Contact Names</strong></h2>
 			<p>
+			<img src="pictures/phone1.png" alt="A photo of a pale-complexioned person with short hair yelling at an old-fashioned phone.">
 			<table>
 				<tr>
 					<th>Robert Drake</th>
 					<th>Emma Frost</th>
 					<th>Doreen Green</th>
+				</tr>
+				<tr>
 					<th>Jean Grey</th>
 					<th>James Howlett</th>
 					<th>Ororo Monroe</th>
+				</tr>
+				<tr>
 					<th>Katherine Pryde</th>
 					<th>Piotr Rasputin</th>
 					<th>Scott Summers</th>
 				</tr>
 			</table>
-		<div class="tabContent" id="tabCon3">
+			</p>
+			</div>
+		<div class="tabContent" id="tabCon3" role="main" aria-live="polite">
 			<h2><strong>Add Contact</strong></h2>
 			<form>
 			  <label for="name">Name</label>
@@ -98,9 +105,20 @@
 			  <input id="email" placeholder="jane.smith@colorado.edu">
 			</form>
 		</div>
-		<div class="tabContent" id="tabCon4">
-		<h2><strong>Help</strong></h2>
-		
+		<div class="tabContent" id="tabCon4" role="main" aria-live="polite">
+			<h2><strong>Help</strong></h2>
+			<body>
+			<img src="pictures/phone2.jpg" alt="A photo of a pale-complexioned person with long hair staring at a phone and clutching their hair, an expression of frustration on their face.">
+			<p>To navigate tabs with keyboard: use tab key and enter key</p>
+			<p></p>
+			<p>Press "d" to navigate to the Dialer</p>
+			<p>Press "s" to navigate to the Contact List</p>
+			<p>Press "a" to navigate to the Add Contact tab</p>
+			<p>Press "h" to navigate back to the Help tab</p>
+			<p>Image credits:</p>
+			<p></p>
+			<p>https://sites.psu.edu/siowfa12/tag/phone/</p>
+			<p>https://www.onholdmarketinginc.com/wp-content/uploads/2014/08/lady-with-phone-mad-can-stock-photo-small-10020484-624x537.jpg</p>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="phone.js"></script>
