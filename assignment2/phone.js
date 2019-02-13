@@ -37,13 +37,41 @@ $("#tab4").click(function() { // when "tab4" is clicked
 });
 
 $("#no1").click(function(){ // when 1 is clicked
-	$("#number").val(val + "1"); // type 1
+	$("#number").val("1"); // type 1
 });
 
 $("#no2").click(function(){ // when 2 is clicked
-	$("#number").val(val + "2"); // type 2
+	$("#number").val("2"); // type 2
 });
 
 $("#no3").click(function(){ // when 3 is clicked
-	$("#number").val(val +"3"); // type 3
+	$("#number").val("3"); // type 3
+});
+
+$("#no4").click(function(){ // when 4 is clicked
+	$("#number").val("4"); // type 4
+});
+
+$("#no5").click(function(){ // when 5 is clicked
+	$("#number").val("5"); // type 5
+});
+
+$("#no6").click(function(){ // when 6 is clicked
+	$("#number").val("6"); // type 6
+});
+
+$("#no7").click(function(){ // when 7 is clicked
+	$("#number").val("7"); // type 7
+});
+
+$("#no8").click(function(){ // when 8 is clicked
+	$("#number").val("8"); // type 8
+});
+
+$("#no9").click(function(){ // when 9 is clicked
+	$("#number").val("9"); // type 9
+});
+
+$("#zero").click(function(){ // when 0 is clicked
+	$("number").val("0"); // type 0
 });
