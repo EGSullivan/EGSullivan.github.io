@@ -7,8 +7,5 @@
 /* make the tab buttons  */
 .tab { background: black; color: white; margin: 10px; }
 
-/* make the background grey */
-#tabCon1 { background: grey; width: 200px; }
-
 /* make the headers have borders */
 h2 { border: 1px solid black; width: 180px; }
