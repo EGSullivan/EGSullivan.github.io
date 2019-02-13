@@ -32,8 +32,9 @@ $("#tab3").click(function() { // when "tab3" is clicked
 $("#tab4").click(function() { // when "tab4" is clicked
 	$("tBar").show(); // show tab bar
 	$("#tabCon1").hide(); // hide dialer
-	$("tabCon2").hide(); // hide contact list
-	$("tabCon4").show(); // show help page
+	$("#tabCon2").hide(); // hide contact list
+	$("tabCon3").hide(); // hide add contact
+	$("#tabCon4").show(); // show help page
 });
 
 $("#no1").click(function(){ // when 1 is clicked
