@@ -1,0 +1,26 @@
+body{
+	background-color: lightblue;
+}
+
+h2{
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: lightblue;
+}
+
+p{
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.nav{
+	background-color: #e7e7e7;
+	color: black;
+	font-size: 20px;
+	padding: 32px 16px;
+	border-radius: 8px;
+	border: 2px solid #4CAF50;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
