@@ -40,6 +40,14 @@ $("#pg4").click(function() {
 	$("#img4").show();
 });
 
+$("#homebutton").click(function() {
+	$("#intro").show();
+	$("#img1").hide();
+	$("#img2").hide();
+	$("#img3").hide();
+	$("#img4").hide();
+});
+
 $("#scroll").click(function() { // do this when the scroll button is clicked
 	$("#intro").show(); // show intro screen
 	$("#img1").show(); // show first image page
