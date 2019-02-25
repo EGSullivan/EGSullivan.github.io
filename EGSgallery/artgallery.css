@@ -92,14 +92,14 @@ h3{
 
 #first{
 	transform: rotate(90deg);
-	height: 500px;
+	height: 200px;
 	width: auto;
 }
 
 #third{
 	transform: rotate(270deg);
-	height: 600px;
-	width: 800px;
+	height: 300px;
+	width: 400px;
 }
 
 .image{
