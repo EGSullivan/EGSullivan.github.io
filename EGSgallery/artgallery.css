@@ -1,7 +1,5 @@
 /* css code here */
 
-/* css code here */
-
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 320px)
@@ -97,7 +95,7 @@ h3{
 	border: 2px solid #4CAF50;
 	position: absolute;
 	right: 0;
-	top: 0;
+	bottom: 0;
 }
 
 #first {
