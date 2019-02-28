@@ -90,18 +90,29 @@ h3{
 	bottom: 0;
 }
 
-#first{
+#first {
 	transform: rotate(90deg);
-	height: 200px;
-	width: auto;
+	height: 80px;
+	width: 30px;
 }
 
-#third{
+#third {
 	transform: rotate(270deg);
-	height: 300px;
-	width: 400px;
+	height: 30px;
+	width: 80px;
+}
+
+#fourth {
+	height: 30px;
+	width: 80px;
 }
 
 .image{
 	position: relative;
 }
+
+img {
+	max-width: 100%;
+	max-height: 100%
+}
+
