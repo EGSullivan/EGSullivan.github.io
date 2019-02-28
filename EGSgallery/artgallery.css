@@ -7,20 +7,20 @@ and (max-device-width : 480px) {
 	p{
 		font-size: smaller;
 	}
-	
+	#first img {
+		left: 50%;
+	}
+
+	#third img {
+		left: 50%;
+	}
+
+	#fourth img {
+		left: 50%;
+	}
+		
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-/* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-/* Styles */
-}
 
 body{
 	background-color: lightblue;
@@ -90,29 +90,31 @@ h3{
 	bottom: 0;
 }
 
-#first {
+#first img {
 	transform: rotate(90deg);
-	height: 80px;
-	width: 30px;
+	max-height: 200px;
+	max-width: 200px;
+	min-width: 100%;
+	width: 100%;
+	height: auto;
+	position: fixed;
 }
 
-#third {
+#third img {
 	transform: rotate(270deg);
-	height: 30px;
-	width: 80px;
+	max-height: 200px;
+	max-width: 200px;
+	min-width: 100%;
+	width: 100%;
+	height: auto;
+	position: fixed;
 }
 
-#fourth {
-	height: 30px;
-	width: 80px;
+#fourth img {
+	max-height: 200px;
+	max-width: 200px;
+	min-width: 100%;
+	width: 100%;
+	height: auto;
+	position: fixed;
 }
-
-.image{
-	position: relative;
-}
-
-img {
-	max-width: 100%;
-	max-height: 100%
-}
-
