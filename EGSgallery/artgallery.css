@@ -100,7 +100,7 @@ h3{
 
 #first {
 	transform: rotate(90deg);
-	height: 400x;
+	height: 350x;
 	width: 350px;
 }
 
@@ -111,7 +111,7 @@ h3{
 
 #third {
 	transform: rotate(270deg);
-	height: 350px;
+	height: 300px;
 	width: 400px;
 }
 
@@ -122,6 +122,10 @@ h3{
 
 .image{
 	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 img {
