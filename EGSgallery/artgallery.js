@@ -46,6 +46,7 @@ $("#homebutton").click(function() {
 	$("#img2").hide();
 	$("#img3").hide();
 	$("#img4").hide();
+	$(".nav").show();
 });
 
 $("#scroll").click(function() { // do this when the scroll button is clicked
