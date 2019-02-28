@@ -1,5 +1,7 @@
 /* css code here */
 
+/* css code here */
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 320px)
@@ -100,18 +102,18 @@ h3{
 
 #first {
 	transform: rotate(90deg);
-	height: 200x;
+	height: 400x;
 	width: 300px;
 }
 
 #second {
-	height: 350px;
+	height: 400px;
 	width: 400px;
 }
 
 #third {
 	transform: rotate(270deg);
-	height: 150px;
+	height: 400px;
 	width: 300px;
 }
 
@@ -132,4 +134,3 @@ img {
 	max-width: 100%;
 	max-height: 100%
 }
-
