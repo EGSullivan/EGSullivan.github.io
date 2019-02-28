@@ -54,5 +54,6 @@ $("#scroll").click(function() { // do this when the scroll button is clicked
 	$("#img2").show(); // show second image page
 	$("#img3").show(); // show third image page
 	$("#img4").show();
+	$(".nav").hide();
 });
 
