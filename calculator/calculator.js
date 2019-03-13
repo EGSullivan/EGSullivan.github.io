@@ -93,15 +93,15 @@ function clickSelectedItem() {
 // you'll rewrite this to control your interface using some number of keys
 $(document).keypress(function(event) {
 	if (event.key == "a") {
-		selectNext()	
+		selectNext();	
 	} if (event.key == "b") {
-		selectPrevious
+		selectPrevious();
 	} if (event.key == "c") {
-		selectUp()
+		selectUp();
 	} if (event.key == "d") {
-		selectDown()
+		selectDown();
 	} else if (event.key == "e") {
-		clickSelectedItem()
+		clickSelectedItem();
 })
 
 
