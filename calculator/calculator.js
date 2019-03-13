@@ -102,6 +102,7 @@ $(document).keypress(function(event) {
 		selectDown()
 	} else if (event.key == "e") {
 		clickSelectedItem()
+	}
 })
 
 
