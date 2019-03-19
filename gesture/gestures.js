@@ -14,11 +14,11 @@ $("#gestureArea").mouseup(function(event) {
 	var upX = (event.pageX)
 	var upY = (event.pageY)
 	
-	if upX < downX {
+	if (upX < downX) {
 		$("#gestureResult").text("swipe left");
-	} else if upX > downX {
+	} else if (upX > downX) {
 		$("#gestureResult").text("swipe right");
-	} else if upX == downX {
+	} else if (upX == downX) {
 		$("#gestureResult").text("mouse up");
 	}
 })
