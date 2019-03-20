@@ -3,8 +3,8 @@ var downY = 0
 
 $("#gestureArea").mousedown(function(event) {
 	$("#gestureResult").text("mouse down");
-	var downX = (event.pageX)
-	var downY = (event.pageY)
+	downX = (event.pageX)
+	downY = (event.pageY)
 })
 	
 	
